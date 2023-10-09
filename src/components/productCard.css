@@ -1,0 +1,35 @@
+.card {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+}
+
+.card span {
+  padding: 4px 8px;
+}
+
+.card .unavailable {
+  background-color: #ffbebe;
+}
+
+.card .instock {
+  background-color: #7aff90;
+}
+
+.card .id {
+  background-color: #4e06a0;
+  font-size: 14px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card .name {
+  font-size: 20px;
+}
+
+.card .info {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
